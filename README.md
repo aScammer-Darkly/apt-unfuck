@@ -20,3 +20,7 @@
 Run remotely:
 ```bash
 curl -sSL https://raw.githubusercontent.com/aScammer-Darkly/apt-unfuck/main/apt-unfuck.sh | bash
+Or clone manually:
+git clone https://github.com/aScammer-Darkly/apt-unfuck.git
+cd apt-unfuck
+sudo ./apt-unfuck.sh
