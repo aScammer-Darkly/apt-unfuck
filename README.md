@@ -1,2 +1,22 @@
 # apt-unfuck
-For when you download 5000 packages but then you lose your dial-up connection and ssh gives up
+
+> Because sometimes `apt` gets real dumb, real fast.
+
+**apt-unfuck** is a surgical recovery script designed to fix stuck, broken, or mid-wedgie `apt`/`dpkg`/`aptitude` installs — without nuking the entire box.
+
+---
+
+## 🧠 What It Does
+
+- Kills stuck `apt`, `apt-get`, `aptitude`, or `dpkg` processes
+- Removes lockfiles that are blocking your install/update
+- Attempts to auto-recover with `dpkg --configure -a`
+- Leaves you with a clean slate and a smoldering `/var/lib`
+
+---
+
+## 🚀 Usage
+
+Run remotely:
+```bash
+curl -sSL https://raw.githubusercontent.com/aScammer-Darkly/apt-unfuck/main/apt-unfuck.sh | bash
