@@ -26,3 +26,9 @@ Or clone manually:
 cd apt-unfuck
 sudo ./apt-unfuck.sh
 ```
+
+## ⚠️ Disclaimer
+
+This script is not safe. It's barely legal. It is a blunt instrument designed to unfuck your system with the elegance of a crowbar dipped in espresso.
+
+"apt-unfuck: When you can't fix it... unfuck it."
